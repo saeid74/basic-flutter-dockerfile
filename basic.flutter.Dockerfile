@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y curl git unzip
 
 ARG FLUTTER_SDK=/usr/local/flutter
-ARG FLUTTER_VERSION=3.38.5
+ARG FLUTTER_VERSION=3.44.0
 ARG APP=/app/
 
 
